@@ -7,6 +7,8 @@
 var app = new Vue({
   el: '#root',
   data: {
-    message: 'Hello World'
+    message: 'Hello World',
+    mieClassi: 'classe1', 'classe2'
+    // miaFunzione:
   }
 });
