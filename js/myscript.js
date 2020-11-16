@@ -8,7 +8,12 @@ var app = new Vue({
   el: '#root',
   data: {
     message: 'Hello World',
-    mieClassi: 'classe1', 'classe2'
-    // miaFunzione:
+    mieClassi: 'classe1 classe2',
+    image: '..img/cutesnek.jpg'
+  },
+  methods: {
+    miaFunzione: function() {
+      alert('ciao');
+    }
   }
 });
